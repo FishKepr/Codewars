@@ -21,7 +21,6 @@ function checkExam(correct, answers) {
     } else {
         return 0;
     }
-
 }
 console.log('Check1:  '+ checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"])) //→ 6
 console.log('Check2:  '+ checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""])) //→ 7

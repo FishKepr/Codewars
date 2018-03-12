@@ -7,7 +7,7 @@
 //A blank answer awards no points.
 //If score < 0, return 0.
 function checkExam(correct, answers) {
-    var score = 0
+    var score = 0;
     for (var i=0;i<correct.length;i++) {
         if (correct[i]===answers[i]) {
             score += 4;

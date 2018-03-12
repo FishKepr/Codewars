@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //This function accepts two arrays, one with the 'correct' answers,
 //and the second with the answers from the student.

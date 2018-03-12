@@ -22,7 +22,7 @@ function checkExam(correct, answers) {
         return 0;
     }
 }
-console.log('Check1:  '+ checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"])) //→ 6
-console.log('Check2:  '+ checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""])) //→ 7
-console.log('Check3:  '+ checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"])) //→ 16
-console.log('Check4:  '+ checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"])) //→ 0
+console.log('Check1:  '+ checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"])); //→ 6
+console.log('Check2:  '+ checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""])); //→ 7
+console.log('Check3:  '+ checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"])); //→ 16
+console.log('Check4:  '+ checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"])); //→ 0

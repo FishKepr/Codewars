@@ -3,6 +3,6 @@ index.html is simply a template for calling solution.js and displaying the resul
 
 Solution.js:
 <ul>
-<li>It finds the sum of all odd number within an array, after cubing all of the numbers.</li>
-<li>If any of the numbers are not an integer it returns undefined.</li>
+<li>This function accepts an string, one with a series of words with all lowercase letters.</li>
+<li>It scores each word by letter value (a=1, b=2, etc) and returns the highest scoring word.</li>
 </ul>
